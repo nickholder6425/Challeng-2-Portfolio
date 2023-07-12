@@ -3,6 +3,8 @@
   }
   
   body {
+    background: url("/assets/css/images");
+    background-size: cover;
     font-family: Arial;
     margin: 0;
   }
