@@ -3,8 +3,9 @@
   }
   
   body {
-    background: url("/assets/css/images");
+    background: url("/assets/css/image/th.jpg");
     background-size: cover;
+    background-position: center;
     font-family: Arial;
     margin: 0;
   }
@@ -59,6 +60,17 @@
     border: 1px solid black;
   }
   
+  * {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background-image: url("./assets/image/th.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
   /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
   
   /* Tablets - header changes color */
