@@ -3,9 +3,7 @@
   }
   
   body {
-    background: url("/assets/css/image/th.jpg");
-    background-size: cover;
-    background-position: center;
+
     font-family: Arial;
     margin: 0;
   }
@@ -13,7 +11,8 @@
   header {
     padding: 60px;
     text-align: center;
-    background: #13293d;
+    background: url("/assets/image/th.jpg");
+    background: black;
     color: #fff;
   }
   
