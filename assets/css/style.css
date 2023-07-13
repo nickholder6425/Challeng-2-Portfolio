@@ -9,24 +9,33 @@
   }
   
   header {
-    padding: 60px;
+    padding: 0%;
     text-align: center;
     background-image: url("/assets/image/th.jpg");
+    background-size: cover;
     color: #fff;
   }
   
+  .image {
+    max-width: 150px;
+    padding: 10px;
+    border-radius: 25px;
+  }
+
+
   nav {
     display: flex;
     background-color: #d8a47f;
   }
   
   nav p {
-    padding: 14px 20px;
+    padding: 20px 40px;
     text-decoration: none;
   }
   
   main {
     display: flex;
+    flex-direction: column;
   }
   
   aside {
@@ -52,20 +61,27 @@
   /* Image Placeholders */
   .sample-img {
     background-color: #fff;
-    width: 100%;
     padding: 20px;
     height: 200px;
     border: 1px solid black;
   }
   
+  .full-width{
+    width: 100%;
 
+  }
+  .half-width{
+    width: 49%;
+    display: inline-block;
+
+  }
 
   /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
   
   /* Tablets - header changes color */
   @media screen and (max-width: 992px) {
     header {
-      background: #772014;
+      
     }
   }
   
