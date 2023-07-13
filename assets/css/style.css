@@ -3,29 +3,38 @@
   }
   
   body {
-
     font-family: Arial;
     margin: 0;
   }
   
   header {
-    padding: 0%;
-    text-align: center;
+    padding: 20px;
+    display: block;
     background-image: url("/assets/image/th.jpg");
     background-size: cover;
-    color: #fff;
+    color: white;
+  }
+  header div ul {
+    
+  }
+
+  * {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
   }
   
   .image {
+    image-orientation: 0;
     max-width: 150px;
     padding: 10px;
     border-radius: 25px;
   }
 
-
   nav {
-    display: flex;
+    display: block;
     background-color: #d8a47f;
+    padding: 20px;
   }
   
   nav p {
@@ -50,31 +59,24 @@
     background-color: #fff;
     padding: 20px;
   }
-  
+  .work {
+    display:inline;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  .half-width{
+    width: 49%;
+    display: inline-block;
+  }
+
   footer {
     padding: 20px;
     text-align: center;
     background: #13293d;
     color: #fff;
   }
-  
-  /* Image Placeholders */
-  .sample-img {
-    background-color: #fff;
-    padding: 20px;
-    height: 200px;
-    border: 1px solid black;
-  }
-  
-  .full-width{
-    width: 100%;
 
-  }
-  .half-width{
-    width: 49%;
-    display: inline-block;
-
-  }
 
   /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
   
