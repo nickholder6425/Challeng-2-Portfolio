@@ -17,13 +17,7 @@ html {
     background-image: url("/assets/image/th.jpg");
     background: size 150px;
     color: white;
-  }
-  header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-size: 20px;
-  }
+  
   div {
     display: block;
   }
@@ -54,15 +48,12 @@ a:-webkit-any-link {
   }
 
   nav {
-    display: block;
+    display:flexbox;
     background-color: #d8a47f;
     padding: 20px;
   }
   
-  nav p {
-    padding: 20px 40px;
-    text-decoration: none;
-  }
+  
   
   main {
     display: flex;
