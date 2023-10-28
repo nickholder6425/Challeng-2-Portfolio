@@ -1,29 +1,51 @@
 * {
-    box-sizing: border-box;
-  }
-  
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  display: block;
+}
   body {
-    font-family: Arial;
-    margin: 0;
+    background-color: white;
+    display: block;
   }
-  
   header {
     padding: 20px;
-    display: block;
+    display:block;
+    box-sizing: border-box;
     background-image: url("/assets/image/th.jpg");
-    background-size: cover;
+    background: size 150px;
     color: white;
   }
+  header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+  }
+  div {
+    display: block;
+  }
   header div ul {
-    
+    list-style-type: none;
   }
+  ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+a:-webkit-any-link {
+  cursor: pointer;
+}
 
-  * {
-    box-sizing: content-box;
-    padding: 0;
-    margin: 0;
-  }
-  
   .image {
     image-orientation: 0;
     max-width: 150px;
@@ -80,12 +102,7 @@
 
   /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
   
-  /* Tablets - header changes color */
-  @media screen and (max-width: 992px) {
-    header {
-      
-    }
-  }
+ 
   
   /* Large smartphones - navbar changes color */
   @media screen and (max-width: 768px) {
